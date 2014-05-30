@@ -1,0 +1,136 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent" >
+     
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" >
+        
+        <EditText
+            android:id="@+id/first_name_Register_Customer_Employee"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/first_name_Register_Customer_Employee"
+            android:inputType="textCapWords" />
+
+        <EditText
+            android:id="@+id/last_name_Register_Customer_Employee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/last_name_Register_Customer_Employee"
+            android:inputType="textCapWords" >
+
+            <requestFocus />
+        </EditText>
+        
+    </LinearLayout>
+    
+    <EditText
+        android:id="@+id/username_Register_Customer_Employee"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/username_Register_Customer_Employee"
+        android:inputType="text|number" />
+    
+    <EditText
+        android:id="@+id/password_Register_Customer_Employee"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/password_Register_Customer_Employee"
+        android:inputType="textPassword|numberPassword" />
+    
+    <EditText
+        android:id="@+id/address_Register_Customer_Employee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/address_Register_Customer_Employee"
+        android:inputType="text|number" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/city_Register_Customer_Employee"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/city_Register_Customer_Employee"
+            android:inputType="textCapWords" />
+
+        <EditText
+            android:id="@+id/state_Register_Customer_Employee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/state_Register_Customer_Employee"
+            android:inputType="textCapCharacters" />
+
+    </LinearLayout>
+    
+    <EditText
+        android:id="@+id/zip_Register_Customer_Employee"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:inputType="number"
+        android:hint="@string/zip_Register_Customer_Employee" />
+    
+    <EditText
+        android:id="@+id/phone_Register_Customer_Employee"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone_Register_Customer_Employee"
+        android:inputType="phone" />
+    
+    <EditText
+        android:id="@+id/email_Register_Customer_Employee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_Register_Customer_Employee"
+        android:inputType="textEmailAddress" />
+    
+    <EditText
+        android:id="@+id/drivers_license_Register_Customer_Employee"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:inputType="textCapCharacters|number"
+        android:hint="@string/license_Register_Customer_Employee" />
+    
+    <RadioGroup
+        android:id="@+id/driver_types_Register_Customer_Employee"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" >
+        
+        <RadioButton
+            android:id="@+id/driver_Register_Customer_Employee"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/driver_Register_Customer_Employee" />
+        
+        <RadioButton
+            android:id="@+id/passenger_Register_Customer_Employee"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/passenger_Register_Customer_Employee" />
+        
+        <RadioButton
+            android:id="@+id/private_driver_Register_Customer_Employee"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/private_driver_Register_Customer_Employee" />
+        
+    </RadioGroup>
+    
+    <Button
+        android:id="@+id/submit_button_Register_Customer_Employee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_Register_Customer_Employee"
+        android:onClick="submitRegistration" />
+
+</LinearLayout>

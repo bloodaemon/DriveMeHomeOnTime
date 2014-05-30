@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="username_System_Menu">Username</string>
+    <string name="password_System_Menu">Password</string>
+    <string name="submit_System_Menu">Submit</string>
+    <string name="register_System_Menu">Register</string>
+    
+</resources>

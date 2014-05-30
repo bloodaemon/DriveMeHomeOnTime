@@ -1,7 +1,44 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/container"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.vehicle.drivemehomeontime.System_Menu"
-    tools:ignore="MergeRootFrame" />
+    android:orientation="vertical" >
+    
+    <EditText
+        android:id="@+id/username_System_Menu"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/username_System_Menu"
+    />
+    
+    <EditText
+        android:id="@+id/password_System_Menu"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/password_System_Menu"
+        android:inputType="textPassword"
+    />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+          
+        <Button
+            android:id="@+id/submit_System_Menu" style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="@string/submit_System_Menu"
+            />
+        
+        <Button
+            android:id="@+id/register_System_Menu" style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="@string/register_System_Menu"
+            />
+    </LinearLayout>
+    
+    
+</LinearLayout>

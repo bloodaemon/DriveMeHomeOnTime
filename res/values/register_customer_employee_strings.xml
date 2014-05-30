@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="title_activity_register_customer_employee">RegisterCustomerEmployee</string>
+    <string name="first_name_Register_Customer_Employee">First Name</string>
+    <string name="last_name_Register_Customer_Employee">Last Name</string>
+    <string name="username_Register_Customer_Employee">Username</string>
+    <string name="password_Register_Customer_Employee">Password</string>
+    <string name="address_Register_Customer_Employee">Street Address</string>
+    <string name="city_Register_Customer_Employee">City</string>
+    <string name="state_Register_Customer_Employee">State (2 letters)</string>
+    <string name="zip_Register_Customer_Employee">Zip Code</string>
+    <string name="phone_Register_Customer_Employee">Phone 10 digits</string>
+    <string name="email_Register_Customer_Employee">E-mail</string>
+    <string name="license_Register_Customer_Employee">Drivers License</string>
+    <string name="driver_Register_Customer_Employee">Driver</string>
+    <string name="passenger_Register_Customer_Employee">Passenger</string>
+    <string name="private_driver_Register_Customer_Employee">Private Driver</string>
+    <string name="submit_Register_Customer_Employee">Submit</string>
+    
+</resources>
