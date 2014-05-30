@@ -9,6 +9,7 @@ import android.widget.Spinner;
 
 public class RegisterCustomerEmployee extends Activity
 {
+    private Spinner state_spinner;
     private Spinner driver_spinner;
 
     @Override
@@ -22,7 +23,12 @@ public class RegisterCustomerEmployee extends Activity
 
     public void addListenerOnSpinnerItemSelection()
     {
+        state_spinner = (Spinner) findViewById(R.id.state_spinner_Register_Customer_Employee);
         driver_spinner = (Spinner) findViewById(R.id.driver_spinner_Register_Customer_Employee);
+        
+        state_spinner
+                .setOnItemSelectedListener(new CustomOnItemSelectedListener());
+        
         driver_spinner
                 .setOnItemSelectedListener(new CustomOnItemSelectedListener());
     }
