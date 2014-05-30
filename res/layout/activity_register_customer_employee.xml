@@ -99,32 +99,13 @@
         android:layout_width="wrap_content"
         android:inputType="textCapCharacters|number"
         android:hint="@string/license_Register_Customer_Employee" />
-    
-    <RadioGroup
-        android:id="@+id/driver_types_Register_Customer_Employee"
-        android:orientation="vertical"
+        
+    <Spinner
+        android:id="@+id/driver_spinner_Register_Customer_Employee"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_width="match_parent" >
-        
-        <RadioButton
-            android:id="@+id/driver_Register_Customer_Employee"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:text="@string/driver_Register_Customer_Employee" />
-        
-        <RadioButton
-            android:id="@+id/passenger_Register_Customer_Employee"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:text="@string/passenger_Register_Customer_Employee" />
-        
-        <RadioButton
-            android:id="@+id/private_driver_Register_Customer_Employee"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:text="@string/private_driver_Register_Customer_Employee" />
-        
-    </RadioGroup>
+        android:entries="@array/driver_array_Register_Customer_Employee"
+        android:prompt="@string/driver_prompt" />
     
     <Button
         android:id="@+id/submit_button_Register_Customer_Employee"

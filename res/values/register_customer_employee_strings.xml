@@ -12,9 +12,14 @@
     <string name="phone_Register_Customer_Employee">Phone 10 digits</string>
     <string name="email_Register_Customer_Employee">E-mail</string>
     <string name="license_Register_Customer_Employee">Drivers License</string>
-    <string name="driver_Register_Customer_Employee">Driver</string>
-    <string name="passenger_Register_Customer_Employee">Passenger</string>
-    <string name="private_driver_Register_Customer_Employee">Private Driver</string>
     <string name="submit_Register_Customer_Employee">Submit</string>
+    
+    <string name="driver_prompt">Select a driver type</string>
+    
+    <string-array name="driver_array_Register_Customer_Employee">
+        <item>Driver</item>
+        <item>Private Driver</item>
+        <item>Passenger</item>
+    </string-array>
     
 </resources>
