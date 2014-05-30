@@ -64,11 +64,12 @@
 
         
         <Spinner
-        android:id="@+id/state_spinner_Register_Customer_Employee"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:entries="@array/state_array_Register_Customer_Employee"
-        android:prompt="@string/state_prompt_Register_Customer_Employee" />
+            android:id="@+id/state_spinner_Register_Customer_Employee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dialog"
+            android:prompt="@string/state_prompt_Register_Customer_Employee"
+            android:entries="@array/state_array_Register_Customer_Employee" />
 
     </LinearLayout>
     
@@ -104,8 +105,9 @@
         android:id="@+id/driver_spinner_Register_Customer_Employee"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:entries="@array/driver_array_Register_Customer_Employee"
-        android:prompt="@string/driver_prompt_Register_Customer_Employee" />
+        android:spinnerMode="dialog"
+        android:prompt="@string/driver_prompt_Register_Customer_Employee"
+        android:entries="@array/driver_array_Register_Customer_Employee" />
     
     <Button
         android:id="@+id/submit_button_Register_Customer_Employee"
