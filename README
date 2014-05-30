@@ -1,0 +1,20 @@
+DriveMeHomeOnTime
+
+Authors
+Richard Szeto
+Randy Lui
+David Jue
+
+Android app that deals with car rental
+
+Customers and employees will be able to register
+and login to accounts stored in a server side
+database
+
+Location of car rental spots will be entered into
+the database
+
+There will be 3 types of drivers
+    -Drivers accepting passengers
+    -Drivers not accepting passengers
+    -Passengers
