@@ -71,9 +71,9 @@
     </string-array>
     
     <string-array name="driver_array_Register_Customer_Employee">
-        <item>Driver</item>
-        <item>Private Driver</item>
-        <item>Passenger</item>
+        <item>driver_take_passengers</item>
+        <item>private_driver</item>
+        <item>passenger</item>
     </string-array>
     
 </resources>

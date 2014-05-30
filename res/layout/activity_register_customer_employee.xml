@@ -9,14 +9,14 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:hint="@string/username_Register_Customer_Employee"
-        android:inputType="text|number" />
+        android:inputType="text" />
     
     <EditText
         android:id="@+id/password_Register_Customer_Employee"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:hint="@string/password_Register_Customer_Employee"
-        android:inputType="textPassword|numberPassword" />
+        android:inputType="textPassword" />
      
     <LinearLayout
         android:orientation="horizontal"
@@ -28,7 +28,7 @@
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:hint="@string/first_name_Register_Customer_Employee"
-            android:inputType="textCapWords" />
+            android:inputType="text" />
 
         <EditText
             android:id="@+id/last_name_Register_Customer_Employee"
@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/last_name_Register_Customer_Employee"
-            android:inputType="textCapWords" >
+            android:inputType="text" >
 
             <requestFocus />
         </EditText>
@@ -48,7 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/address_Register_Customer_Employee"
-        android:inputType="text|number" />
+        android:inputType="text" />
     
     <LinearLayout
         android:layout_width="match_parent"
@@ -60,7 +60,7 @@
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:hint="@string/city_Register_Customer_Employee"
-            android:inputType="textCapWords" />
+            android:inputType="text" />
 
         
         <Spinner
@@ -74,7 +74,7 @@
     </LinearLayout>
     
     <EditText
-        android:id="@+id/zip_Register_Customer_Employee"
+        android:id="@+id/zip_code_Register_Customer_Employee"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:inputType="number"
@@ -98,7 +98,7 @@
         android:id="@+id/drivers_license_Register_Customer_Employee"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:inputType="textCapCharacters|number"
+        android:inputType="text"
         android:hint="@string/license_Register_Customer_Employee" />
         
     <Spinner
